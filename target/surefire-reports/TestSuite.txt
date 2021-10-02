@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 127.075 s <<< FAILURE! - in TestSuite
+com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT[Admin, admin123](1)  Time elapsed: 0.715 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT(Testcase_loginDDT_002.java:21)
+
+com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT[Admin, admin1](2)  Time elapsed: 0.449 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT(Testcase_loginDDT_002.java:21)
+
+com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT[admin, Admin](3)  Time elapsed: 0.141 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT(Testcase_loginDDT_002.java:21)
+
+com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT[Admin, admin123](4)  Time elapsed: 0.206 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002.loginDDT(Testcase_loginDDT_002.java:21)
+
+com.orangeHRM30_09_21.testcases.Testcase_login_001.login  Time elapsed: 77.575 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//b[text()='Admin']"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BIECMF0', ip: '192.168.43.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75927ac6b86e20ea46356cf3e61feaa0
+*** Element info: {Using=xpath, value=//b[text()='Admin']}
+	at com.orangeHRM30_09_21.testcases.Testcase_login_001.login(Testcase_login_001.java:43)
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="brName" value="chrome"/>
+  <listeners>
+    <listener class-name="com.orangeHRM30_09_21.utilities.Reports"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
+          <include name="startsuite"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.orangeHRM30_09_21.testcases.Testcase_loginDDT_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.orangeHRM30_09_21.testcases.Testcase_login_001">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="startsuite"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.orangeHRM30_09_21.testcases.Testcase_login_001 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
